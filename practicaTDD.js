@@ -37,3 +37,5 @@ assert.deepEqual(Raices(1, 0, 1), [[0, 1], [0, -1]]);
 assert.deepEqual(Raices(1, -2, 5), [[1, 2], [1, -2]]);
 // Caso de uso 6 - Raices imaginarias.
 assert.deepEqual(Raices(1, 1, 1), [[-0.5, Math.sqrt(3)/2], [-0.5, -Math.sqrt(3)/2]]);
+// Caso de uso 7 - Raices imaginarias.
+assert.deepEqual(Raices(1, -3, 3), [[1.5, Math.sqrt(3)/2], [1.5, -Math.sqrt(3)/2]]);
