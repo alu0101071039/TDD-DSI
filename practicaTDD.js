@@ -16,10 +16,10 @@ function Raices(a, b, c){
     var RaizImaginaria2 = 0;
   }else{
     var RaizDiscriminante = Math.sqrt(-Discriminante);
-    var RaizReal1 = 0;
-    var RaizReal2 = 0;
-    var RaizImaginaria1 = (-b + RaizDiscriminante) / DobleA;
-    var RaizImaginaria2 = (-b - RaizDiscriminante) / DobleA;
+    var RaizReal1 = -b / DobleA;
+    var RaizReal2 = -b / DobleA;
+    var RaizImaginaria1 = RaizDiscriminante / DobleA;
+    var RaizImaginaria2 = -RaizDiscriminante / DobleA;
   }
 
   return [[RaizReal1, RaizImaginaria1], [RaizReal2, RaizImaginaria2]];
